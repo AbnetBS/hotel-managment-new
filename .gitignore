@@ -1,0 +1,4 @@
+node_modules/
+dist/
+.hotel-data.json
+.hotel-data.json.tmp
