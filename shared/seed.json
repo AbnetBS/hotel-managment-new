@@ -1,0 +1,110 @@
+{
+  "rooms": [
+    {
+      "id": "room-101",
+      "number": "101",
+      "type": "Deluxe king",
+      "defaultRate": 2600,
+      "status": "occupied",
+      "guest": {
+        "name": "Nadia Bekele",
+        "phone": "+251 911 234 567",
+        "email": "nadia@example.com",
+        "nationality": "Ethiopian",
+        "documentId": "ET-104821",
+        "guests": 2,
+        "notes": "Late checkout requested"
+      },
+      "checkInAt": "2026-10-08T10:00:00+03:00",
+      "ratePerNight": 2400,
+      "currency": "ETB",
+      "addons": [
+        { "id": "demo-101-1", "name": "Coffee and breakfast", "qty": 2, "unitPrice": 320, "kind": "food" }
+      ]
+    },
+    {
+      "id": "room-102",
+      "number": "102",
+      "type": "Courtyard queen",
+      "defaultRate": 2900,
+      "status": "occupied",
+      "guest": {
+        "name": "Lukas Meyer",
+        "phone": "+49 151 1234567",
+        "email": "lukas@example.com",
+        "nationality": "German",
+        "documentId": "P-921603",
+        "guests": 1,
+        "notes": ""
+      },
+      "checkInAt": "2026-10-09T13:00:00+03:00",
+      "ratePerNight": 78,
+      "currency": "USD",
+      "addons": [
+        { "id": "demo-102-1", "name": "Laundry service", "qty": 1, "unitPrice": 450, "kind": "service" },
+        { "id": "demo-102-2", "name": "Mineral water", "qty": 2, "unitPrice": 85, "kind": "item" }
+      ]
+    },
+    { "id": "room-103", "number": "103", "type": "Standard twin", "defaultRate": 2100, "status": "available", "guest": null, "checkInAt": null, "ratePerNight": null, "currency": "ETB", "addons": [] },
+    { "id": "room-104", "number": "104", "type": "Standard twin", "defaultRate": 2100, "status": "available", "guest": null, "checkInAt": null, "ratePerNight": null, "currency": "ETB", "addons": [] },
+    { "id": "room-105", "number": "105", "type": "Deluxe king", "defaultRate": 2600, "status": "available", "guest": null, "checkInAt": null, "ratePerNight": null, "currency": "ETB", "addons": [] },
+    { "id": "room-106", "number": "106", "type": "Family suite", "defaultRate": 3900, "status": "available", "guest": null, "checkInAt": null, "ratePerNight": null, "currency": "ETB", "addons": [] },
+    { "id": "room-107", "number": "107", "type": "Courtyard queen", "defaultRate": 2900, "status": "available", "guest": null, "checkInAt": null, "ratePerNight": null, "currency": "ETB", "addons": [] },
+    { "id": "room-108", "number": "108", "type": "Standard twin", "defaultRate": 2100, "status": "available", "guest": null, "checkInAt": null, "ratePerNight": null, "currency": "ETB", "addons": [] }
+  ],
+  "tables": [
+    { "id": "table-1", "number": 1, "label": "Table 1" },
+    { "id": "table-2", "number": 2, "label": "Table 2" },
+    { "id": "table-3", "number": 3, "label": "Table 3" },
+    { "id": "table-4", "number": 4, "label": "Table 4" },
+    { "id": "table-5", "number": 5, "label": "Table 5" },
+    { "id": "table-6", "number": 6, "label": "Table 6" }
+  ],
+  "categories": [
+    { "id": "cat-breakfast", "name": "Breakfast" },
+    { "id": "cat-mains", "name": "Mains" },
+    { "id": "cat-drinks", "name": "Drinks" },
+    { "id": "cat-dessert", "name": "Dessert" }
+  ],
+  "menuItems": [
+    { "id": "food-1", "name": "Shiro fitfit", "description": "Spiced chickpea stew with torn injera.", "price": 280, "categoryId": "cat-breakfast", "emoji": "🍲", "image": "" },
+    { "id": "food-2", "name": "Chechebsa", "description": "Warm flatbread tossed with berbere and niter kibbeh.", "price": 240, "categoryId": "cat-breakfast", "emoji": "🥘", "image": "" },
+    { "id": "food-3", "name": "Avocado toast", "description": "Sourdough, avocado, lemon and herbs.", "price": 360, "categoryId": "cat-breakfast", "emoji": "🥑", "image": "" },
+    { "id": "food-4", "name": "Doro wat", "description": "Slow-cooked chicken, egg and house berbere.", "price": 720, "categoryId": "cat-mains", "emoji": "🍛", "image": "" },
+    { "id": "food-5", "name": "Grilled fish", "description": "Fresh catch with lemon, salad and rice.", "price": 890, "categoryId": "cat-mains", "emoji": "🐟", "image": "" },
+    { "id": "food-6", "name": "Veggie bowl", "description": "Seasonal greens, lentils and tahini dressing.", "price": 540, "categoryId": "cat-mains", "emoji": "🥗", "image": "" },
+    { "id": "food-7", "name": "Ethiopian coffee", "description": "Freshly roasted, served jebena style.", "price": 120, "categoryId": "cat-drinks", "emoji": "☕", "image": "" },
+    { "id": "food-8", "name": "Fresh mango juice", "description": "Pressed to order, no added sugar.", "price": 180, "categoryId": "cat-drinks", "emoji": "🥭", "image": "" },
+    { "id": "food-9", "name": "Sparkling water", "description": "Chilled 500 ml bottle.", "price": 85, "categoryId": "cat-drinks", "emoji": "🫧", "image": "" },
+    { "id": "food-10", "name": "Honey cake", "description": "Soft sponge with local honey cream.", "price": 260, "categoryId": "cat-dessert", "emoji": "🍰", "image": "" }
+  ],
+  "qrOrders": [
+    {
+      "id": "demo-order-table-3",
+      "targetId": "table-3",
+      "targetType": "table",
+      "targetLabel": "Table 3",
+      "items": [
+        { "id": "order-line-demo-1", "menuItemId": "food-4", "name": "Doro wat", "qty": 2, "unitPrice": 720 },
+        { "id": "order-line-demo-2", "menuItemId": "food-7", "name": "Ethiopian coffee", "qty": 2, "unitPrice": 120 }
+      ],
+      "createdAt": "2026-10-10T08:30:00+03:00",
+      "status": "new"
+    }
+  ],
+  "receipts": [],
+  "staff": [
+    { "id": "staff-admin", "name": "Evelyn Tesfaye", "username": "admin", "role": "Admin", "active": true },
+    { "id": "staff-cashier", "name": "Liya Alemu", "username": "cashier", "role": "Cashier", "active": true }
+  ],
+  "receiptTemplate": {
+    "tin": "TIN-________",
+    "hotelName": "Haven House Hotel",
+    "addressLines": "Bole Road\nAddis Ababa, Ethiopia",
+    "phone": "+251 11 000 0000",
+    "fsNo": "FS-01",
+    "invoiceTitle": "CASH INVOICE",
+    "footerLines": "Thank you for choosing Haven House!\nWe hope to see you again."
+  },
+  "receiptSequence": 1
+}
